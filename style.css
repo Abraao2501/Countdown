@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+li {
+    list-style: none;
+}
+body {
+    height: 100vh;
+    background: #121212;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    
+}
+h1, a{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    padding: 1rem;
+    color: rgb(231, 216, 85);
+    text-align: center;
+    margin-bottom: .3rem;
+}
+
+.countdown {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(17rem,16rem));
+    gap: 10px;
+    padding: 10px;
+    justify-content: center;
+}
+.countdown li {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    padding: .5rem;
+    color: rgb(234, 246, 67);
+    background: #1e1e1e;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.4);
+    text-align: center;
+}
+span {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 8rem;
+    
+}
